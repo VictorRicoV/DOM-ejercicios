@@ -11,3 +11,7 @@ console.log(
 );
 
 //- Partiendo de esta lista, intercambia los textos de los li, deberás tener este resultado sin modificar a mano el HTML. Importante, no hay que mover el <li> sólo cambiar el contenido.
+
+const exchangeText1 = document.getElementById('first-list')
+
+
