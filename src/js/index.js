@@ -40,4 +40,16 @@ const allA = document.querySelectorAll('a');
 const allImg = document.querySelectorAll('img');
 const allFooter = document.querySelectorAll('footer');
 
-console.log(allHeader, allNav, allUl, allLi, allSection, allArticle, allTitles, allP, allA, allImg, allFooter);
+console.log(
+  allHeader.length,
+  allNav.length,
+  allUl.length,
+  allLi.length,
+  allSection.length,
+  allArticle.length,
+  allTitles.length,
+  allP.length,
+  allA.length,
+  allImg.length,
+  allFooter.length
+);
