@@ -1,9 +1,9 @@
 // El styles lo importamos aquí para que se encargue Vite de compilar todo
-import '../scss/styles.scss';
+import "../scss/styles.scss";
 
 //- Partiendo de este HTML selecciona en JavaScript el h3 y utilizándolo como punto de partida imprime la información de todos los elementos que hay en formato "familia": Soy un h3 con el id... y la clase... mi padre es un header con.... mi hermano es un h1 con....
 
-const starPointElement = document.getElementById('start-point');
+const starPointElement = document.getElementById("start-point");
 
 console.dir(starPointElement);
 console.log(
@@ -12,6 +12,9 @@ console.log(
 
 //- Partiendo de esta lista, intercambia los textos de los li, deberás tener este resultado sin modificar a mano el HTML. Importante, no hay que mover el <li> sólo cambiar el contenido.
 
-const exchangeText1 = document.getElementById('first-list')
+const exchangeText1 = document.getElementById("first-list");
+const exchangeText2 = document.getElementById("second-list");
 
-
+exchangeText1.textContent = "Primer li";
+exchangeText2.textContent = "Segundo li";
+console.dir(exchangeText1, exchangeText2);
